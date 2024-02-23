@@ -1,0 +1,4 @@
+debian/tmp/bin/* /usr/bin/
+debian/tmp/share/* /usr/lib/ocaml/
+debian/tmp/lem/* /usr/lib/ocaml/lem
+

@@ -1,0 +1,11 @@
+--- a/Makefile
++++ b/Makefile
+@@ -6,7 +6,7 @@
+ DDIR=lem-$(LEMVERSION)
+ 
+ # by default assume local install
+-INSTALL_DIR := $(realpath .)
++INSTALL_DIR := $(DESTDIR)
+ 
+ #all: il.pdf build-main ilTheory.uo
+ all: bin/lem libs_phase_1

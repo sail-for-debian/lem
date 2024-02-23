@@ -1,0 +1,8 @@
+--- a/ocaml-lib/ocamlbuild.mk
++++ b/ocaml-lib/ocamlbuild.mk
+@@ -1,4 +1,4 @@
+-INSTALLDIR := $(shell ocamlfind printconf destdir)
++INSTALLDIR := $(DESTDIR)
+ LOCALINSTALDIR := local
+ 
+ all: extract_zarith extract_num

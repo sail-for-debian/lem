@@ -1,0 +1,2 @@
+debian/tmp/lem_zarith /usr/lib/ocaml/
+debian/tmp/lem_num /usr/lib/ocaml/
